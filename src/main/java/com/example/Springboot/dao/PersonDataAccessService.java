@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.Springboot.model.Person;
 
+// different 'data access service' with a specified name
 @Repository("postgres")
 public class PersonDataAccessService implements PersonDao {
 

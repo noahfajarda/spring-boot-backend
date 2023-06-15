@@ -63,6 +63,7 @@ public class PersonController {
 
   // UPDATE a person
   @PutMapping(path = "{id}")
+  // @Valid & @NotNull == can't have empty values
   public void updatePerson(@PathVariable("id") UUID id, @Valid @NotNull @RequestBody Person personToUpdate) {
     System.out.println("Request to update a person");
     personService.updatePerson(id, personToUpdate);

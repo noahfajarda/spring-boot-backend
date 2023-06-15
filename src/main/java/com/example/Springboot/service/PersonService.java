@@ -18,6 +18,7 @@ public class PersonService {
 
   // Autowired == inject/autowire/insert into the interface
   @Autowired
+  // Qualifier == specifies which implementation to use from 'dao' directory
   public PersonService(@Qualifier("fakeDao") PersonDao personDao) { // you can replace 'fakeDao' with 'postgres' to use the postgres DAO
     this.personDao = personDao;
   }
