@@ -14,11 +14,13 @@ public class Person {
   private final UUID id;
   @NotBlank
   private final String name;
+  private final int age;
 
   // initialize constructor
-  public Person(@JsonProperty("id") UUID id, @JsonProperty("name") String name) {
+  public Person(@JsonProperty("id") UUID id, @JsonProperty("name") String name, @JsonProperty("age") int age) {
     this.id = id;
     this.name = name;
+    this.age = age;
   }
 
   // initialize getters
@@ -27,6 +29,9 @@ public class Person {
   }
   public String getName() {
     return name;
+  }
+  public int getAge() {
+    return age;
   }
   
 }
