@@ -23,3 +23,5 @@ Technologies used:
 Video Reference: https://www.youtube.com/watch?v=vtPkZShrvXQ
 
 http://localhost:8080/api/v1/person
+
+- check java version === javac --version
