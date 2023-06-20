@@ -1,6 +1,6 @@
 Steps:
 
-1. start.spring.io and configure based on 'springboot-initializer' image
+1. Go to 'start.spring.io' and configure based on 'springboot-initializer' image
 
 2. once generated, unzip the file, then you'll have 'springboot-file-structure' image
 
@@ -22,6 +22,6 @@ Technologies used:
 
 Video Reference: https://www.youtube.com/watch?v=vtPkZShrvXQ
 
-http://localhost:8080/api/v1/person
+Default: http://localhost:8080/api/v1/person
 
 - check java version === javac --version
